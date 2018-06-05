@@ -1,6 +1,6 @@
 # Write your code here
 def usd_to_eur
-  puts "What is the amount in dollars?"
+  puts "What is the amount in dollars (defined to the hundreth place)?"
   dollars = gets.chomp.to_i
   puts "Amount in euros:"
   puts dollars * 0.85 
